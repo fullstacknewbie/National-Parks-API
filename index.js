@@ -14,6 +14,7 @@ function getResults() {
 
 function displayResults(responseJson) {
     let i = 0
+    $("#results").empty();
     console.log(responseJson)
     console.log(responseJson.data[0].fullName)
     let total = responseJson.data.length-1
