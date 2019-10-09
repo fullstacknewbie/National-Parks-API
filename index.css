@@ -1,0 +1,39 @@
+.hide {
+    display: none;
+}
+
+html {
+    background-image: url("nationalpark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    color: rgb(102, 104, 102);
+    text-align: center;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+#results {
+    margin-top: 25px;
+    background: rgb(10, 70, 10);
+    opacity: .75;
+    color: whitesmoke
+
+}
+
+/* .fade {
+    background-image: url("nationalpark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(50%);
+    font-size: 15px;
+    height: 100%;
+} */

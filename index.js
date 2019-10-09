@@ -1,9 +1,4 @@
-/*XYAZIv3O6HaWcsnGpine6IRetfjeP0kLTPXCbISZ
-curl 'https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=INSERT-API-KEY-HERE'*/
-
 'use strict'
-
-
 
 function getResults() {
     console.log(state.value)
@@ -14,6 +9,7 @@ function getResults() {
 
 function displayResults(responseJson) {
     let i = 0
+    $("#form").addClass('hide');
     $("#results").empty();
     console.log(responseJson)
     console.log(responseJson.data[0].fullName)
